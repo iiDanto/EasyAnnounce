@@ -1,0 +1,9 @@
+name: EasyAnnounce
+version: '1.0-SNAPSHOT'
+main: iiDanto.easyAnnounce.EasyAnnounce
+api-version: '1.20'
+commands:
+  announce:
+    usage: /<command> <text>
+    description: Announces a message to the server
+    aliases: /broadcast
